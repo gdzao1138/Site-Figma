@@ -1,0 +1,28 @@
+body {
+    margin: 0; /* Remove a margem padrão */
+    padding: 10px; /* Adiciona espaçamento interno */
+}
+
+button {
+    border: 2px solid blue;
+    border-radius: 10px; /* Cantos arredondados */
+}
+
+:root {
+    --cor-primaria: #062941; /* Azul */
+    --cor-secundaria: #00ff6a; /* Verde */
+    --cor-fundo: #f4f4f4; /* Cinza claro */
+}
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-primaria);
+}
+
+:root {
+    --fonte-principal: 'Arial', sans-serif;
+    --tamanho-texto: 16px;
+}
+body {
+    font-family: var(--fonte-principal);
+    font-size: var(--tamanho-texto);
+}
